@@ -97,6 +97,17 @@
       font-size: 0.9rem;
       text-align: center;
     }
+    .chat-link {
+      color: inherit;         /* Takes the silver color from the pill */
+      text-decoration: none;  /* Removes the underline */
+      transition: opacity 0.3s ease;
+      cursor: pointer;
+    }
+
+    .chat-link:hover {
+      opacity: 0.7;           /* Gives a subtle "press" feel when she taps it */
+      text-decoration: underline; /* Optional: adds underline only on hover */
+    }
 
     .footer {
       color: #64748b;
@@ -130,7 +141,7 @@
         
         <p>I hope your day is filled with the kind of peace and joy you’ve always given to those around you. You deserve the absolute best.</p>
         
-        <div class="pill">Thinking of you.<br>Abdulwahab ✨</div>
+        <div class="pill">Thinking of you.<br><a href="https://wa.me/2348103383681" target="_blank" class="chat-link">Abdulwahab ✨</a> </div>
       </div>
 
       <p class="footer">
